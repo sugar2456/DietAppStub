@@ -1,0 +1,20 @@
+- # sample GET
+  request:
+    url: /test
+    method: GET
+  response:
+    status: 200
+    body: '{ result: "test" }'
+
+- # data POST
+  request:
+    url: /data
+    method: POST
+    body:
+      weight: "2"
+      body_fat: "2"
+      bmi: "2"
+      metabolism: "2"
+  response:
+    status: 200
+    body: '{ result: "Succes" }'
